@@ -1,0 +1,22 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "TEAM_ID.BUNDLE_ID"
+        ],
+        "components": [
+          {
+            "/": "/path/*",
+            "comment": "Matches any URL with a path that starts with /path/"
+          },
+          {
+            "/": "*",
+            "exclude": true,
+            "comment": "Excludes all other URLs"
+          }
+        ]
+      }
+    ]
+  }
+}
